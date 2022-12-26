@@ -1,0 +1,1 @@
+(()=>{"use strict";window.addEventListener("load",(()=>{const e=document.getElementsByTagName("a");Array.from(e).map((e=>{e.href.match(/^https:\/\/github.com/g)||(e.target="_blank",e.rel="noopener noreferrer")}))}))})();

@@ -1,0 +1,14 @@
+{
+    "name": "GitHubLinkOpener",
+    "version": "1.0",
+    "description": "open link in github in new tab",
+    "manifest_version": 3,
+
+    "content_scripts": [
+        {
+            "matches": ["https://github.com/*"],
+            "js": ["js/content.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
